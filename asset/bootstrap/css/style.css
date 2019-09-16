@@ -1,0 +1,36 @@
+.artikel_post{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.btn.btn-reg>input[type='file'] {
+    position: absolute;
+    top: 0;
+    right: -7em;
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+    /* font-size: 100px; */
+    text-align: right;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.pilih{
+  z-index: 2;
+  margin-left: -1px;
+  width: 100%;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+
+#img-upload{
+    width: 100%;
+}
